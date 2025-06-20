@@ -24,7 +24,7 @@ int main() {
     int maxNumber = arr[0];
     for (int i = 1; i < n; i++) {
         if (arr[i] > maxNumber) {
-            max = arr[i];
+            maxNumber = arr[i];
         }
     }
     printf("Phan tu lon nhat trong mang la: %d\n", maxNumber);
